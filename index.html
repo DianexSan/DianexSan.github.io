@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=PT+Sans:ital@1&family=Poppins:ital,wght@1,600&family=Roboto+Mono:wght@100;300;400&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imagenes/lock_padlock_security_icon_185979.ico">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo a de Alura" id="logo">
+        <a href="https://www.linkedin.com/in/dianexsandoval" class="contacto">Contacto</a>
+             
+    </header>
+    <main>
+        <section>
+            <h1 class="tituloPrincipal">Challenge 1 - Desafío encriptador</h1>
+            <textarea class="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <p><img src="imagenes/i.png">Solo letras minusculas y sin acentos</p>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>            
+            </div>
+            <button class="pegar" onclick="pegar()">Pegar</button>
+        </section>
+
+        <section>
+            <textarea class="mensaje">Ingresa el texto que deseas encriptar o desencriptar</textarea>
+            <img src="imagenes/munheco.png" alt="Muñeco con lupa">
+            <img src="imagenes/ningunMensaje.png" alt="ningun mensaje">
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

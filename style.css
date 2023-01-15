@@ -1,0 +1,86 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    background: url(imagenes/C-digo-Da-Vinci-Mini-Cryptex-D-a-de-San-Valent-n-parejas-creativas-de-cumplea.jpg_Q90.jpg_.jfif);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+header
+{
+    position: absolute;
+    background: goldenrod;
+    width: 450px;
+    border: solid;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px gray;
+    left: 15px;
+    padding: 10px;
+       
+}
+
+main
+{
+    
+}
+
+.tituloPrincipal
+{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 400px;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 2px;
+    background-color: gold;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#logo
+{
+    width: 33px;
+    height: 50px;
+    left: 45px;
+    margin-left: 15px;
+}
+
+
+.inputText
+{
+    position: relative;
+    left: 40px;
+    top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    opacity: 90%;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.mensaje
+{
+    position: absolute;
+    left: 450px;
+    top: 15px;
+    width: 400px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-color: gold;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 90%;
+    left: 70%;
+    top: 70px;
+
+}
